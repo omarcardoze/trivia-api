@@ -1,0 +1,11 @@
+POST http://localhost:3000/api/questions  
+Content-Type: application/json
+
+{
+    "prompt": "Cuantos distritos tiene Las Minas",
+    "optionA": "2",
+    "optionB": "3",
+    "optionC": "8",
+    "optionD": "5",
+    "asnwer": "optionD"
+}
