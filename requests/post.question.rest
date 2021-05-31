@@ -1,11 +1,11 @@
-POST http://localhost:3000/api/questions  
+POST http://localhost:3001/api/questions  
 Content-Type: application/json
 
 {
-    "prompt": "Cuantos distritos tiene Las Minas",
-    "optionA": "2",
-    "optionB": "3",
-    "optionC": "8",
-    "optionD": "5",
+    "prompt": "Los de cedula 13 son de la provincia de",
+    "optionA": "Darien",
+    "optionB": "Chorrera",
+    "optionC": "Cocle",
+    "optionD": "Panama Oeste",
     "asnwer": "optionD"
 }

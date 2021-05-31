@@ -4,7 +4,7 @@ const Questions = require('../models/Questions')
 
 questionsRouter.get('/', async (req, res) => {
     
-    const questionsList = await  Questions.find({})
+    const questionsList = await  Questions.aggregate([{$sample: {size: 5}}])
 
     res.json(questionsList)
 })
